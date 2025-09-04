@@ -1,5 +1,5 @@
 # Project Argon
-# Project Argon: Hologram Notebook
+#Hologram Notebook
 
 ## Overview
 A futuristic notebook that replaces paper with a holographic display for interactive note-taking, drawing, and collaboration.
