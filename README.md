@@ -27,8 +27,5 @@ A futuristic notebook that replaces paper with a holographic display for interac
 3. Build note storage system
 4. Test holographic projection
 
-## Notes & Documentation
-See [docs/notes.md](docs/notes.md) for research, ideas, and design sketches.
-
 ## License 
 Proprietary License
