@@ -6,26 +6,25 @@ A futuristic notebook that replaces paper with a holographic display for interac
 
 ## Features
 - Stylus input for handwriting and drawing
-- Holographic projection of notes
+- projection of notes
 - Cloud storage and synchronization
 - Real-time collaboration
+- Able to add 3d models and work on them
 
 ## Hardware Components
-- Holographic display module
 - Stylus or gesture sensors
 - Processor and battery
 - Connectivity: Wi-Fi/Bluetooth
 
 ## Software Components
-- 3D UI simulation
 - Note storage and retrieval system
 - Gesture and stylus input processing
+- Model Editor/Slicer
 
 ## Development Roadmap
-1. Prototype 3D interface
+1. Make a Prototype
 2. Implement input handling
 3. Build note storage system
-4. Test holographic projection
-
+4. Test Pen/Gesture sensors
 ## License 
 Proprietary License
