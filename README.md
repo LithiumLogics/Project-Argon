@@ -1,5 +1,5 @@
 # Project Argon (Work in progress)
-#Hologram Notebook
+#Notebook for 3d printer ethisists
 
 ## Overview
 A futuristic notebook that replaces paper with a holographic display for interactive note-taking, drawing, and collaboration.
