@@ -1,30 +1,60 @@
-# Project Argon (Work in progress)
-#Notebook for 3d printer ethisists
+# 🛣️ ArgonOS Roadmap
 
-## Overview
-A futuristic notebook that replaces paper with a holographic display for interactive note-taking, drawing, and collaboration.
+ArgonOS is a lightweight, customized Linux distribution built on **Ubuntu Lite** and optimized for the **Raspberry Pi 3B**.  
+This roadmap outlines the development milestones and goals for the project.  
 
-## Features
-- Stylus input for handwriting and drawing
-- projection of notes
-- Cloud storage and synchronization
-- Real-time collaboration
-- Able to add 3d models and work on them
+---
 
-## Hardware Components
-- Stylus or gesture sensors
-- Processor and battery
-- Connectivity: Wi-Fi/Bluetooth
+## 📌 Phase 1: Base Setup
+- [ ] Flash Ubuntu Server Lite (ARM64) for Raspberry Pi 3B  
+- [ ] Boot and configure hostname → `argon-os`  
+- [ ] Update base system (`apt update && apt upgrade`)  
+- [ ] Enable SSH for remote access  
 
-## Software Components
-- Note storage and retrieval system
-- Gesture and stylus input processing
-- Model Editor/Slicer
+---
 
-## Development Roadmap
-1. Make a Prototype
-2. Implement input handling
-3. Build note storage system
-4. Test Pen/Gesture sensors
-## License 
-Proprietary License
+## 📌 Phase 2: Core Environment
+- [ ] Install development tools (GCC, Python, Git, etc.)  
+- [ ] Configure networking via **NetworkManager**  
+- [ ] Ensure stable SSH + WiFi/Ethernet support  
+
+---
+
+## 📌 Phase 3: Desktop Environment
+- [ ] Install **XFCE4** as the primary desktop environment  
+- [ ] Configure X.Org for Pi GPU  
+- [ ] Enable auto-boot into graphical target  
+
+---
+
+## 📌 Phase 4: Branding & Identity
+- [ ] Design and integrate **ArgonOS splash screen** (Plymouth)  
+- [ ] Set default **wallpaper + XFCE theme**  
+- [ ] Configure ArgonOS default hostname, login banner, and GRUB branding  
+
+---
+
+## 📌 Phase 5: Core Applications
+- [ ] Lightweight web browser (Midori / Falkon)  
+- [ ] File manager (Thunar)  
+- [ ] Text editor (Mousepad)  
+- [ ] Python 3 + essential libraries  
+
+---
+
+## 📌 Phase 6: Optimization
+- [ ] Optimize boot speed (systemd analyze + service trimming)  
+- [ ] Enable Raspberry Pi 3B hardware acceleration & drivers  
+- [ ] Remove unused packages to shrink image size  
+
+---
+
+## 📌 Phase 7: Distribution & Release
+- [ ] Export ArgonOS as a `.img` file  
+- [ ] Compress image (`.img.xz`) for release  
+- [ ] Publish on GitHub with release notes + checksum  
+- [ ] Write user installation guide (flash with `Raspberry Pi Imager` / `dd`)  
+
+---
+
+✅ **Final Goal**: Deliver a clean, fast, and lightweight OS for Raspberry Pi 3B with ArgonOS branding.
