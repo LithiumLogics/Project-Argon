@@ -58,3 +58,5 @@ This roadmap outlines the development milestones and goals for the project.
 ---
 
 ✅ **Final Goal**: Deliver a clean, fast, and lightweight OS for Raspberry Pi 3B with ArgonOS branding.
+
+**Then Work On The PCB**
