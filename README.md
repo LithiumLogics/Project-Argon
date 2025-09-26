@@ -1,6 +1,6 @@
 # 🛣️ ArgonOS Roadmap
 
-ArgonOS is a lightweight, customized Linux distribution built on **Ubuntu Lite** and optimized for the **Raspberry Pi 3B**.  
+ArgonOS is a lightweight, customized Linux distribution built on **Ubuntu Lite** and optimized for the **Raspberry Pi 3B**. (Other System hardware support coming soon!)
 This roadmap outlines the development milestones and goals for the project.  
 
 ---
